@@ -1,0 +1,169 @@
+:root{
+	--background-color: #314453;
+	--brighter-background-color: #243848;
+	--accent-color: #ecebd7;
+	--text-color: #e65f5b;
+}
+
+*{
+	margin: 0;
+	padding: 13px;
+	font-size: 22px;
+	font: Hevetica;
+	color: var(--text-color);
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}	
+
+nav{
+	font-family: Helvetica; 
+	height: 85px;
+	background: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a.logo{
+	font-family: Helvetica; 
+	margin-left: 0px;
+	font-size: 30pt;
+	text-decoration: none;
+}
+
+
+nav ul{
+	font-family: Helvetica; 
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+nav li{
+	font-family: Helvetica; 
+	height: 100%;
+	width: 150px;
+	text-align: center;
+	position: relative;
+}
+
+nav li:hover{
+	background: var(--accent-color);
+}
+
+nav ul a{
+	height: 100%;
+	width: 100%;
+	font-family: Helvetica; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-decoration: none;
+}
+.dropdown{
+	height: min-content;
+	width: 200px;
+	background: var(--background-color);
+	font-family: Helvetica; 
+	display: none;
+	flex-direction: column;
+	position: absolute;
+
+	left: 0;
+	top: 80px;
+}
+
+.dropdown li{
+	height: 70px;
+	width: 100%;
+}
+
+.dropdown li a{
+	justify-content: flex-start;
+	padding-left: 30px;
+	width: calc(100% - 30px);
+}
+
+nav li:hover .dropdown{
+	display: flex;
+	font-family: Helvetica; 
+}
+
+nav input[type="checkbox"]{
+	display: none;
+}
+
+.expandable_li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.toggle_button{
+	width: 30px;
+	height: 23px;
+
+	position: absolute;
+	top: 25px;
+	right: 25px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body{
+	background-position: center;
+	background-color: #ecebd7;
+}
+	h1 { 
+		font-family: Helvetica; 
+		color: #314453;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		text-align: center;
+		font-size: 26pt;
+	}
+	h2 { 
+		font-family: Helvetica; 
+		color:#e65f5b;
+		margin-bottom: 1em;
+		text-align: center;
+		font-size: 18pt;
+	}
+	p {
+		font-family: Helvetica; 
+		color: #555452;
+		text-align: center;
+		font-size: 14pt;
+		text-align: justify;
+		margin: auto;
+		width: 36em;
+	}
+
+footer{
+	text-decoration: none;
+	font-family: Helvetica;
+	color: #e65f5b;
+	text-align: right;
+}
+a:link{
+	text-decoration: none;
+	font-size: 14pt;
+}

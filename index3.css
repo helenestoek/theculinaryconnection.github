@@ -1,0 +1,58 @@
+body{
+	background-position: center;
+	background-color: #ecebd7;
+}
+
+img{
+	height: 1000px;
+	width: 1700px;
+	object-fit: cover;
+	border-radius: 1000px;
+	margin-bottom: 80px;
+}
+
+.Konzept{
+	display: flex;
+	justify-content: center;	
+}
+
+h1, h2, p{
+	text-align: center;
+	font-family: Helvetica;
+}
+
+.erklären{
+	display: flex;
+	justify-content: center;
+}
+
+h1{
+	color: #314453;
+	font-size: 26pt;
+	padding: 55px;
+}
+
+.box{	
+	width: 55em;
+}
+
+h2{
+	color:#e65f5b;
+	font-size: 18pt;
+}
+
+p{
+	color: #555452;
+	font-size: 14pt;
+	width: 36em;
+	font-family: Helvetica;
+	margin-bottom: 55px;
+	text-align: justify;
+}
+
+.farbe{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}

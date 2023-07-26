@@ -1,0 +1,66 @@
+body{
+	background-color: #ecebd7;
+}
+.container{
+	margin: auto;
+	padding: 40px;
+	background-color: #ed755c;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-radius: 40px;
+}
+
+h1, h3{
+	color: #e65f5b;
+	font-family: Helvetica;
+	font-size: 18pt;
+	padding-left: 68px;
+	margin-top: 55px;
+}
+
+h2{
+	color: #314453;
+	font-family: Helvetica;
+	font-size: 16pt;
+	padding-left: 30px;
+}
+
+li{
+	color: #555452;
+	font-family: Helvetica;
+	font-size: 14;
+	text-decoration: none;
+	list-style: none;
+	width: 200px;
+}
+
+.image{
+	display:flex;
+	flex-direction: row;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+	border-radius: 1000px;
+}
+
+.Aufzählung{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+a:link{
+	color: #ecebd7;
+}
+
+.menu-group-heading{
+	color: #314453;
+	font-family: Helvetica;
+	font-size: 16pt;
+	padding-left: 30px;
+	padding-bottom: 15px;
+
+}

@@ -1,0 +1,52 @@
+body{
+	background-position: center;
+	background-color: #ecebd7;
+}
+
+.Tabelle{
+	margin: auto;
+	padding: 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-radius: 40px;
+}
+
+h1{
+	color: #314453;
+	font-family: Helvetica;
+	font-size: 18pt;
+	padding-left: 68px;
+	margin-top: 55px;
+}
+
+thead{
+	color: #314453;
+	font-family: Helvetica;
+	font-size: 16pt;
+}
+
+td{
+	color: #ecebd7;
+	font-family: Helvetica;
+	font-size: 14pt;
+	margin: auto;
+}
+
+td, th{
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 900px;
+	text-align: left;
+	background-color: #e65f5b;
+	border-radius: 30px;
+}
+
+.bus{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 80pt;
+	margin-top: 55px;
+}
